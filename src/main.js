@@ -12,8 +12,7 @@ app.listen(PORT, () => {
 	console.log(serverCreated);
 });
 
-mongoConnectionString =
-	"mongodb+srv://admin:123@aws.hiafwad.mongodb.net/?retryWrites=true&w=majority&appName=AWS";
+mongoConnectionString = "URL";
 
 mongoose
 	.connect(mongoConnectionString, { dbName: "ExpressJS" })
